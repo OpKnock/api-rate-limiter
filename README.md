@@ -1,34 +1,4 @@
-﻿```regex
-â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•— â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•— â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•— â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•— â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•— â–ˆâ–ˆâ•—     â–ˆâ–ˆâ•—  â–ˆâ–ˆâ•—â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—
-â–ˆâ–ˆâ•”â•â•â•â•â•â–ˆâ–ˆâ•”â•â•â–ˆâ–ˆâ•—â–ˆâ–ˆâ•”â•â•â•â•â•â•šâ•â•â–ˆâ–ˆâ•”â•â•â•â–ˆâ–ˆâ•”â•â•â–ˆâ–ˆâ•—â–ˆâ–ˆâ•”â•â•â–ˆâ–ˆâ•—â–ˆâ–ˆâ•‘     â–ˆâ–ˆâ•‘  â–ˆâ–ˆâ•‘â•šâ•â•â•â•â–ˆâ–ˆâ•—â–ˆâ–ˆâ•”â•â–ˆâ–ˆâ–ˆâ–ˆâ•—
-â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•‘â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—   â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•‘â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•”â•â–ˆâ–ˆâ•‘     â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•‘ â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•”â•â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•”â–ˆâ–ˆâ•‘
-â–ˆâ–ˆâ•”â•â•â•  â–ˆâ–ˆâ•”â•â•â–ˆâ–ˆâ•‘â•šâ•â•â•â•â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•”â•â•â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•”â•â•â•â• â–ˆâ–ˆâ•‘     â•šâ•â•â•â•â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•”â•â•â•â• â–ˆâ–ˆâ–ˆâ–ˆâ•”â•â–ˆâ–ˆâ•‘
-â–ˆâ–ˆâ•‘     â–ˆâ–ˆâ•‘  â–ˆâ–ˆâ•‘â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•‘  â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•‘     â–ˆâ–ˆâ•‘          â–ˆâ–ˆâ•‘â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—â•šâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•”â•
-â•šâ•â•     â•šâ•â•  â•šâ•â•â•šâ•â•â•â•â•â•â•   â•šâ•â•   â•šâ•â•  â•šâ•â•â•šâ•â•     â•šâ•â•          â•šâ•â•â•šâ•â•â•â•â•â•â• â•šâ•â•â•â•â•â•
-```
 
-[![Cybersecurity Projects](https://img.shields.io/badge/Cybersecurity--Projects-Project%20%235-red?style=flat&logo=github)](https://github.com/mehulwagde/api-rate-limiter)
-[![Python](https://img.shields.io/badge/Python-3.14+-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org)
-[](https://www.gnu.org/licenses/agpl-3.0)
-[![PyPI](https://img.shields.io/pypi/v/fastapi-420?color=3775A9&logo=pypi&logoColor=white)](https://pypi.org/project/fastapi-420)
-[![FastAPI](https://img.shields.io/badge/FastAPI-compatible-009688?style=flat&logo=fastapi)](https://fastapi.tiangolo.com)
-
-> Enterprise rate limiting for FastAPI using HTTP 420 "Enhance Your Calm".
-
-<p align="center">
-  <a href="https://youtu.be/mIeVcpwWP2Q">
-    <img src="https://img.shields.io/badge/Watch_on-YouTube-FF0000?logo=youtube&logoColor=white" alt="Watch on YouTube">
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://youtu.be/mIeVcpwWP2Q">
-    
-  </a>
-</p>
-
-
-*Learning Docs are here: [learn modules](#learn).*
 
 ## What It Does
 
@@ -74,8 +44,5 @@ This project includes step-by-step learning materials covering security theory, 
 | [04 - Challenges](learn/04-CHALLENGES.md) | Extension ideas and exercises |
 
 
-## Author\n\nMehul Wagde (wagdemehul@gmail.com)\n\n## License
-
-AGPL 3.0
 
 

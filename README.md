@@ -1,48 +1,38 @@
+# API Rate Limiter
 
+Educational rate limiting middleware for Go HTTP servers. It implements token-bucket and leaky-bucket algorithms as configurable middleware, and ships a CLI to configure and test rate limits.
 
-## What It Does
+## Educational Purpose
 
-- Three implementation methods: middleware (global), decorator (per route), dependency injection
-- Sliding Window, Token Bucket, and Fixed Window rate limiting algorithms
-- Redis support with automatic in-memory fallback when Redis is unavailable
-- Scoped rate limiters for applying different limits to endpoint groups
-- Fingerprint levels (RELAXED, NORMAL, STRICT) for client identification granularity
-- Multiple stacking rules where the most restrictive limit applies
+**Important:** This tool is intended solely for educational and authorized testing purposes. Rate limiting is a fundamental HTTP security pattern. This tool should only be used on HTTP servers you own or have explicit written permission to test.
 
-## Quick Start
+### Authorized Use Only
 
-```bash
-uv add fastapi-420
-```
+- Only apply rate limiting to HTTP endpoints you own or have explicit permission to test
+- Obtain explicit written permission before testing any rate limiting configuration
+- Report any discovered issues to the appropriate system owner
+- Never apply rate limiting to endpoints you do not have explicit authorization for
 
-```python
-from fastapi import FastAPI
-from fastapi_420 import RateLimiter, RateLimiterSettings
+### Educational Value
 
-app = FastAPI()
-limiter = RateLimiter(RateLimiterSettings(default_limit="69/minute"))
-app.add_middleware(limiter.middleware)
-```
+Understanding rate limiting helps development teams:
+- Implement proper API protection mechanisms
+- Design appropriate rate limit parameters for their use cases
+- Test rate limiting behavior before production deployment
+- Educate team members about API security practices
 
-For Redis support: `uv add fastapi-420[redis]`
+### Legal Compliance
 
-> [!TIP]
-> This project uses [`just`](https://github.com/casey/just) as a command runner. Type `just` to see all available commands.
->
-> Install: `curl -sSf https://just.systems/install.sh | bash -s -- --to ~/.local/bin`
+- Unauthorized rate limiting may violate terms of service of API providers
+- Follow institutional policies regarding API testing tools
+- Always obtain explicit written permission before testing any rate limiting configuration
 
-## Learn
+### Responsible Use
 
-This project includes step-by-step learning materials covering security theory, architecture, and implementation.
+- This project is provided for educational purposes only
+- Results should be verified with proper security tools for real-world use
+- Never use discovered techniques against production systems without authorization
 
-| Module | Topic |
-|--------|-------|
-| [00 - Overview](learn/00-OVERVIEW.md) | Prerequisites and quick start |
-| [01 - Concepts](learn/01-CONCEPTS.md) | Security theory and real-world breaches |
-| [02 - Architecture](learn/02-ARCHITECTURE.md) | System design and data flow |
-| [03 - Implementation](learn/03-IMPLEMENTATION.md) | Code walkthrough |
-| [04 - Challenges](learn/04-CHALLENGES.md) | Extension ideas and exercises |
+## License
 
-
-
-
+MIT - This project is free software: you can redistribute it and/or modify it under the terms of the MIT License. See the LICENSE file for full terms and conditions.
